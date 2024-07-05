@@ -1,0 +1,136 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+.foo{
+  font-weight: bolder;
+  font-style: oblique;
+  color: #9ab2c7;
+  text-shadow: blue;
+  text-transform:uppercase;
+}
+.p{
+  background-color: #c41e1e;
+  color: aqua;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+.game{
+  height: 40px;
+  width: 300px;
+  background-color: #9ab2c7;
+  color: rgb(255, 244, 127);
+  box-shadow: 0px 0px 10px green;
+  text-align: center;
+  margin-top: 2px;
+  padding: 10px;
+  padding-top: 10px;
+  font-weight: bolder;
+
+}
+.g{
+  height: 40px;
+  width: 300px;
+  background-color: #c79a9b;
+  color: rgb(4, 11, 33);
+  box-shadow: 0px 0px 10px rgb(100, 108, 100);
+  text-align: center;
+  margin-top: 2px;
+  font-weight: bold;
+  padding: 10px;
+  padding-top: 10px;
+  font-weight: bold;
+}
+.person{
+  height: 400px;
+  width:400px;
+  color: #646cff;
+  background-color: aquamarine;
+  box-shadow: 0px 0px 30px grey;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+}
+.header{
+  color: #1a1a1a;
+  text-transform: uppercase;
+  text-shadow:0px 0px 30px rgb(18, 232, 178) ;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.weather{
+   color: rgb(226, 221, 216);
+   height: 500px;
+   width: 600px;
+   background-color:rgb(125, 125, 176);
+   padding: 20px;
+}
+
+.list{
+  height: 400px;
+  overflow-y: scroll;
+}
